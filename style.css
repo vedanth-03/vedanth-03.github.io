@@ -1,0 +1,52 @@
+body{
+    background-color: #0d0a63;
+    position: relative;
+}
+
+.titlebox{
+    font-size: 4em;
+    font-family: cursive;
+    color: #10c9c9;
+    /*text-decoration-line : underline;*/
+}
+
+.sectionTitle{
+    font-size: 2em;
+    color: #ffff00;
+}
+
+.nav1{
+    padding-bottom: 2em;
+}
+
+.nav-link{
+    font-size: 1.5em;
+}
+
+.sections > p{
+    font-size: 1.5em;
+    color: #ffff00;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.profile{
+    max-height: 35vh;
+    width: auto;
+}
+
+.Icon{
+    max-height: 20vh;
+    width: auto;
+}
+
+.Icon2{
+    max-height: 15vh;
+    width: auto;
+}
+
+.Icon3{
+    max-height: 15vh;
+    width: auto;
+    padding-left: 1em;
+}

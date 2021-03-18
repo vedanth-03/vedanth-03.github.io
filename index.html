@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Setting up bootstrap scrollspy in body tag-->
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <p class="text-center titlebox">Hi, I'm Vedanth</p>
+            </div>
+        </div>
+        
+        <!--div for navbar in same container-->
+        <div class="row-cols-12 sticky-top nav1">
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-center ">  
+                <ul class="navbar-nav">
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#section1">About</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#section2">Strengths and Abilities</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#section3">Achivements</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="#section4">Contact Info</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    
+    <!--bootstrap container for each section-->    
+    <div class="container-fluid" id="section1">
+        <div class="row">
+            <div class="col-sm-1">
+                <p class="text-center font-weight-bold sectionTitle">About</p>
+            </div>
+            <div class="col-sm-11"></div>
+        </div>
+        <div class="row-cols-12">
+          <img src="photo_1.jpg" class="rounded-circle mx-auto d-block profile" alt="Profile Pic">
+        </div> 
+        <div class="row-cols-12 sections">
+          <p class="text-center">
+          Hi, I am Vedanth Parthasarathy, fresher at BITS Pilani, Goa Campus pursuing Electronics and Communication. </br> 
+          I like playing Basketball and table tennis and also watching sports in general. My areas or interest include </br>
+          electronics and automation. I like learning something new and I'm a fast learner.
+          </p>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="section2">
+        <div class="row">
+          <div class="col-sm-3">
+            <p class="text-center font-weight-bold sectionTitle">Strengths and Abilities</p>
+          </div>
+          <div class="col-sm-9"></div>
+        </div>
+        <div class="row-cols-12 sections">
+          <p class="text-center">
+            My strengths include determination and eagerness to learn.</br> 
+            I have a bit of programming experience in the C, C++, Python and Arduino.</br>
+            I have made projects on neural networks in python and with arduino </br> using arduino IDE.
+            Currently, I am learning web develompent with MERN stack.
+          </p>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="section3">
+      <div class="row">
+        <div class="col-sm-1">
+          <p class="text-center font-weight-bold sectionTitle">Achivements</p>
+        </div>
+      <div class="col-sm-11"></div>
+      </div>
+      <div class="row-cols-12 sections">
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,</br>
+          non necessitatibus nulla beatae facilis commodi eaque totam consequuntur</br>
+          labore fugit ex nam, placeat rem tempora vitae provident culpa aspernatur</br>
+          id Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita </br>
+          (Hope to add some achievements in college)
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="section4">
+      <div class="row">
+        <div class="col-sm-2">
+          <p class="text-left font-weight-bold sectionTitle">Contact Info</p>
+        </div>
+        <div class="col-sm-10"></div>
+      </div>
+      <div class="row-cols-12 sections">
+        <p class="text-center">
+          Email: vedanthp24@gmail.com </br>
+          Mobile: +91-7016202592</br>
+          <a href="https://github.com/vedanth-03" target="_blank"><img src="github-icon.jpg" class="Icon"></a>
+          <a href="https://www.linkedin.com/login" target="_blank"><img src="linkedin-icon.jpg" class="Icon2"></a>
+          <a href="https://www.instagram.com/vedanth_parthasarathy/" target="_blank"><img src="instagram-icon.jpg" class="Icon3"></a>
+        </p>
+      </div>
+    </div>
+    
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
